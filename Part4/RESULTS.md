@@ -1,0 +1,1 @@
+We can see that there are problems associated with race-conditions. Both incrementing and decrementing functions tries to read, change and write to the same place in memory. We should end up with 0 every time, but due to interuptions, we do not get that value every time. 
