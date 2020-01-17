@@ -16,7 +16,7 @@ void* incrementingThreadFunction(){
 void* decrementingThreadFunction(){
     // TODO: decrement i 1_000_000 times
     for (int k = 0; k<= 1000000; k++){
-    i..;
+    	i--;
     }
 
     return NULL;
